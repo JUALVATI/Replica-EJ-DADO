@@ -1,0 +1,90 @@
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:300,700);
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	background: #333;
+	color: #fff;
+}
+header {
+	padding: 20px;
+}
+h1{
+	font-weight: 700;
+	text-transform: uppercase;
+}
+p{
+	font-weight: 300;
+}
+a {
+	color: gray;
+}
+/* section {
+	display: flex; Estoy haciendo el indicando que voy a comenzar a posicionar mis elementos, y que en éste caso mis elementos(dados) tomen de manera correcta su posición tomando el ancho del contenedor, es decir se va a posicionar de tal manera que me ocupe sus espacios vacios en éste caso horizontalmente.
+	justify-content: center; Usamos esta propiedad para ubicar los elementos de tal manera que se acomoden en el centero del contenedor y así lograr un mejor orden en el caso de organizar los 6 dados.
+	flex-wrap: wrap; Estoy posicionando de manera consecutiva, es decir se acomodan en filas, y que tomen correctamente su forma de dado, y no ver una expansión extraña que de una extraña visión. */
+/* } */
+/* [class^="cara-"]{
+	display: flex; Estoy diciendo que sus puntos se ubiquen correctamente en cada cara y no se redireccionen hacia otro lugar, o se tomen en otra posicion, en el caso de que estamos hablando de la clase "cara"
+	margin: 1em;
+	width: 150px;
+	height: 150px;
+	padding: 15px;
+	background: #FEFEF6;
+	border-radius: 10%;
+}
+.cara-uno{
+	justify-content: center; En éste caso lo usaré para darle su centrado correcto dentro de la cara 1, se ubicará en el centro pero precisamente usaremos...
+	align-items: center; para decirle que se acomode justo en el centro, es decir se acomodará central y de manera vertical, estas dos propiedades o elementos harán que se acomode justamente central y que no comience en la izquierda ya que desde allí desglosa su punto.
+}
+.cara-dos{
+	justify-content: space-between; Decimos que usaremos el space-between de tal manera que se tomen distancia entre ellos mismos, como estamos manejando dos puntos entonces usaremos el space between para que usen su distancia y se acomoden diagonal y no verticalmente.
+}
+.cara-dos .punto:nth-child(2){
+	align-self: flex-end;
+}
+.cara-tres{
+	justify-content: space-between; Su espacio sera distancial entre los mismos(puntos) tomaran como referencia el punto izquierdo que es donde comienzan, pero basicamente terminaran de forma diagonal ya que con el spacebetween se acomodaran de tal manera entre la distancia de los tres puntos. 
+}
+.cara-tres .punto:nth-child(2){
+	align-self: center; Su punto en la mitad se acomodará de manera central y valga la redundancia usaremos el center para que se acomode justo en la mitad de la cara(dado)
+}
+.cara-tres .punto:nth-child(3){
+	align-self: flex-end; En éste caso se usa el flexend en caso del punto 3 ya que de manera visual se acomodará en el fin de la cara(dado).
+}
+.cara-cuatro{
+	justify-content: space-between; En el caso tal usaremos esta dirección para que los 4 puntos tomen nuevamente disntancia entre ellos mismos y teoricamente se están separando de la izquierda allí toma referencia y spacebetween hara que los 4 puntos en éste caso se separen no diagonalmente si no que se van a separar horizontalmente.
+}
+.cara-cuatro .columna {
+	display: flex; Posicionamiento de las columnas dentro de la cara(dado)
+	flex-direction: column; Decimos que estamos dando dirección horizontal con las columnas. 
+	justify-content: space-between; Separacion de las columnas, dando a entender que en el caso de columna esta etiqueta está trabajando de manera vertical ya que se revierten sus direcciones en el caso de ser columna.
+}
+.cara-cinco{
+	display: flex; Importante para darle posicionamiento dentro de...
+	justify-content: space-between; Estamos referenciando los espacios entre los puntos dentro de la cara(dado)
+}
+.cara-cinco .columna {
+	display: flex; Comienzo de posición de las columnas.
+	flex-direction: column; En éste caso usaremos para redireccionar nuestras columnas de forma horizontal nuevamente.
+	justify-content: space-between; Espaciado de las dos columnas dentro de su cara(dado) para lograr una justa posicion de comienzo a fin, es decir como lo usamos en la cara 4, ya que se está hablando de más puntos.
+}
+.cara-cinco .medio{
+	align-self: center; El punto de mitad se posiciona central valga la redundacia, ya que se está usando el alignselfcenter como en casos anteriores.
+}
+.cara-seis{
+	display: flex; Se toma su espacio de contenedor nuevamente y,
+	justify-content: space-between;usaremos esta para como en los casos anteriores, que los puntos dentro del contenedor tomen su espaciado entre ellos mismos.
+}
+.cara-seis .columna{
+	display: flex; En éste caso de posición en cuanto a la cara(dado).
+	flex-direction: column; Una vez más nuestras columnas, se forman horizontalmente ya que su creación se da de la forma en que los puntos se acomoden de forma en dos columnas logrando una visualización de 6 puntos sin tener que acudir a un punto medio.
+	justify-content: space-between; Espaciado de las dos columnas que tenemos en el caso de horizontal, como en los casos anteriores. Toma de forma horizontal, ya que es una columna.
+}
+.punto {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: black;
+	box-shadow: inset 0 3px #111, inset 0 -3px#555 ; */
+} */
